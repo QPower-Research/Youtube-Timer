@@ -1,0 +1,117 @@
+@font-face{
+  font-family: 'Quantum';
+  src: url('assets/fonts/Quantum.otf');
+}
+
+body{
+  /* text-align: center; */
+  background: #222222;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+div#qpowerlogo{
+  text-align: right;
+  padding:20px;
+  display: inline-block;
+}
+
+table{
+  width:100%;
+}
+
+.msp{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+
+.qlogo{
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+
+.socials-table{
+  text-align: start;
+}
+
+#social{
+  height: 30px;
+
+}
+
+.site-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: wheat;
+  color: white;
+  text-align: center;
+}
+ul li{
+  display: inline;
+  margin: 0px 15px;
+}
+.social{
+  display: flexbox;
+  padding: 20px;
+  width: 250px;
+}
+
+.handle-text{
+  color:#137e6d;
+}
+
+#qpowertitle{
+color:white;
+text-align: center;
+font-size: 15px;
+font-family: 'Quantum';
+}
+
+img #qpower{
+display: inline-block;
+height:100px;
+}
+
+img #msplogo{
+display: inline-block;
+height: 100;
+}
+
+h1{
+color: #396;
+font-weight: 100;
+font-size: 40px;
+margin: 40px 0px 20px;
+}
+
+#clockdiv{
+font-family: sans-serif;
+color: #fff;
+display: inline-block;
+font-weight: 100;
+text-align: center;
+font-size: 30px;
+}
+
+#clockdiv > div{
+padding: 10px;
+border-radius: 3px;
+background: #00BF96;
+display: inline-block;
+}
+
+#clockdiv div > span{
+padding: 15px;
+border-radius: 3px;
+background: #00816A;
+display: inline-block;
+}
+
+.smalltext{
+padding-top: 5px;
+font-size: 16px;
+}
