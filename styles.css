@@ -24,12 +24,17 @@ table{
   position: fixed;
   left: 0px;
   top: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+
 }
 
 .qlogo{
   position: fixed;
   right: 0px;
   top: 0px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 .socials-table{
@@ -46,10 +51,17 @@ table{
   left: 0;
   bottom: 0;
   width: 100%;
-  background: wheat;
-  color: white;
+  background: #fff;
+  color: #222;
   text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+  display: inline-table;
+  color: #222222;
+  font-style: italic;
+  font-size: 20px auto;
 }
+
 ul li{
   display: inline;
   margin: 0px 15px;
